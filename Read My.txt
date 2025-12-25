@@ -1,0 +1,158 @@
+🛡️ My-Antivirus
+
+My-Antivirus ist ein selbstgebautes Antivirus-Programm (Python → EXE),
+das manuell gesteuert, transparent und einfach ist.
+
+Kein Hintergrund-Tracking.
+Kein Cloud-Zwang.
+👉 Du entscheidest, was gescannt wird.
+
+📌 Wichtig vorab (BITTE LESEN)
+
+⚠️ Dieses Programm funktioniert NICHT mit nur einer Datei.
+Es müssen alle Dateien aus dem Download vorhanden sein, sonst startet das Programm nicht korrekt.
+
+❌ Nicht nur main.exe herunterladen
+✅ Immer das komplette Paket
+
+📥 Download (richtig!)
+🔹 Variante 1: Repository als ZIP herunterladen (empfohlen)
+
+Oben auf Code
+
+Download ZIP
+
+ZIP-Datei vollständig entpacken
+
+Den entpackten Ordner nicht verändern
+
+Struktur danach (Beispiel):
+
+My-Antivirus/
+├── dist/
+│   └── main.exe
+├── build/
+├── main.py
+├── main.spec
+├── README.md
+└── LICENSE
+
+🔹 Variante 2: Nur EXE starten (NICHT empfohlen)
+
+❌ Wird nicht empfohlen, da:
+
+Dateien fehlen
+
+Programm abstürzen kann
+
+Funktionen evtl. nicht laufen
+
+👉 Nutze immer den kompletten Download
+
+▶️ Programm starten
+
+Öffne den Ordner dist
+
+Starte main.exe
+
+Falls Windows warnt:
+
+Weitere Informationen
+
+Trotzdem ausführen
+
+💡 Das ist normal bei selbstgebauten EXE-Dateien.
+
+🖥️ Benutzeroberfläche erklärt
+🔹 Scan-Modus
+
+Full Scan → kompletter Systemscan
+
+Ordner auswählen → nur bestimmter Ordner
+
+Datei auswählen → einzelne Datei prüfen
+
+🔹 Buttons
+
+🟢 Scan starten → Scan beginnt
+
+🔴 Scan stoppen → Scan wird abgebrochen
+
+🔹 Status
+
+Bereit → wartet auf Aktion
+
+Scan läuft → aktiv
+
+Gestoppt → Scan abgebrochen
+
+📄 Scan-Logs
+
+Ergebnisse werden im Programm angezeigt
+
+Zusätzlich gespeichert in:
+
+scan_log.txt
+
+
+👉 Praktisch für spätere Analyse oder Debugging.
+
+🧠 Was dieses Antivirus macht
+
+✅ Dateien analysieren
+✅ Ordner scannen
+✅ Logs schreiben
+✅ Manuelle Kontrolle
+
+🚫 Was dieses Antivirus nicht macht
+
+❌ Kein Echtzeitschutz
+❌ Keine automatische Löschung
+❌ Keine Cloud-Analyse
+❌ Kein Ersatz für kommerzielle Antivirus-Software
+
+👉 Lern- & Hobbyprojekt
+
+⚙️ Technische Infos (für Interessierte)
+
+Programmiert in Python
+
+Gebaut mit PyInstaller
+
+EXE ist abhängig von internen Dateien (build, dist, etc.)
+
+➡️ Deshalb ist der komplette Download Pflicht
+
+🧪 Projektstatus
+
+🛠️ In Entwicklung / Lernprojekt
+
+Geplante Features:
+
+Quarantäne-System
+
+Bessere Logs
+
+Signaturdatenbank
+
+Cleaner Installer (1-EXE-Version)
+
+⚠️ Haftungsausschluss
+
+Die Nutzung erfolgt auf eigene Verantwortung.
+Keine Garantie auf Erkennung oder Schutz.
+
+❤️ Motivation
+
+Gebaut, um:
+
+Python & Security zu lernen
+
+zu verstehen, wie Scanner funktionieren
+
+ein eigenes Tool von Grund auf zu bauen
+
+📄 Lizenz
+
+Siehe LICENSE
+Freie Nutzung für Lern- und private Zwecke.
