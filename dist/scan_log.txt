@@ -1,0 +1,8 @@
+[2025-06-22 17:52:48.598586] Scan: C:/Users/Dawid/Desktop/index.html
+SHA256: 70cfcc59b5d8cab8749140c1f649e1e15cea099c993470458deaec9df014f8de
+Fehler beim Scannen: 'NoneType' object has no attribute 'match'
+----------------------------------------
+[2025-06-22 17:53:08.538355] Scan: C:/Users/Dawid/Downloads/What The Fish5.5.2025.zip
+SHA256: a45ae75da20364a9984cd9d499fde1c0de0905621999ed761f9fd7e81660831c
+Fehler beim Scannen: 'NoneType' object has no attribute 'match'
+----------------------------------------
